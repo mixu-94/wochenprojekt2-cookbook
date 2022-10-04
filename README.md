@@ -1,3 +1,3 @@
-# WOchenprojekt 2 
+# Wochenprojekt 2 
 
 #### Cookbook ####
