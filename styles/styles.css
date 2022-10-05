@@ -1,0 +1,14 @@
+#bootstrap-cards{
+    display:flex;
+    justify-content: center;
+}
+
+.card{
+    margin:20px;
+}
+
+.btn-primary{
+    display: flex;
+    justify-content: center;    
+}
+
