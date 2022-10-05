@@ -1,0 +1,10 @@
+#bootstrap-cards{
+    display:flex;
+    justify-content: center;
+}
+
+.card{
+    margin:20px;
+
+}
+
