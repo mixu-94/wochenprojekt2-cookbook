@@ -1,14 +1,29 @@
 #bootstrap-cards{
-    display:flex;
-    justify-content: center;
+  display:flex;
+  justify-content: center;
 }
 
 .card{
-    margin:20px;
+  margin:20px;
 }
 
 .btn-primary{
-    display: flex;
-    justify-content: center;    
+  display: flex;
+  justify-content: center;    
 }
 
+h1{
+  font-weight: bolder;
+  padding: 10px 0;
+  color: rgb(76, 141, 11);
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+body{
+  background-color: rgb(240, 240, 240);
+}
