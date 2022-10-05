@@ -5,6 +5,10 @@
 
 .card{
     margin:20px;
+}
 
+.btn-primary{
+    display: flex;
+    justify-content: center;    
 }
 
