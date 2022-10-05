@@ -1,4 +1,27 @@
-#bootstrap-cards{
+header{
+  background-color: white;
+}
+
+h1{
+  font-weight: bolder;
+  padding: 10px 0;
+  color: rgb(76, 141, 11);
+}
+
+body{
+  background-color: rgb(240, 240, 240);
+}
+
+.logoIMGContainer{
+  width: 10%;
+  height: 2em;
+  margin: auto;
+}
+
+.logoIMG{
+  max-width: 100%;
+  max-height: 100%;
+}#bootstrap-cards{
     display:flex;
     justify-content: center;
 }
