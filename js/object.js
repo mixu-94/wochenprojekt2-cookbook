@@ -21,20 +21,11 @@ const recipes = [
     }
 ]
 
+
+
 // List of all recipes: 
 
 const recipelist = [
-    recipes1,
-    recipes2,
-    recipes3,
-    recipes4,
-    recipes5,
-    recipes6,
-]
-
-// Recipes
-
-const recipes1 = [ 
     {
         title: "Classic Stuffed Peppers",
         description: "The bell pepper is an excellent vessel for stuffing meat, rice, and, of course, cheese. It's strong enough to hold its shape in the oven, and the flavor is subtle enough to go well with just about anything. This is our favorite recipe, but the customization options are endless.",
@@ -53,10 +44,7 @@ const recipes1 = [
                         
                         ]   
         
-    }
-]
-
-const recipes2 = [ 
+    },
     {
         title: "Black Bean Tostadas",
         description: "With only 5 ingredients, these black bean tostadas are the easiest and fastest meal to throw together. You can always include additional toppings like corn salsa, avocado ranch, or endless crunchy veggies like radishes or pickled red onions, but these are also delicious if you keep things simple, like we did here.",
@@ -75,10 +63,7 @@ const recipes2 = [
                         
                         ]   
         
-    }
-]
-
-const recipes3 = [ 
+    },
     {
         title: "Arroz Con Pollo",
         description: "Want something awesome for dinner but don't want to spend your entire evening cooking and cleaning? Arroz con pollo (chicken with rice in Spanish) is the the perfect recipe. It's an easy one-pot meal that doesn't taste like one, and it tastes even better as leftovers.",
@@ -97,10 +82,7 @@ const recipes3 = [
                         
                         ]   
         
-    }
-]
-
-const recipes4 = [ 
+    },
     {
         title: "Creamy Steak Fettuccine",
         description: "Whenever we crave steak, this dish is always what we want to make. It comes together quickly and is so full of flavor. It makes us forget chicken fettuccine Alfredo ever existed. If you want the steak without the pasta, may we suggest Cajun butter steak?",
@@ -119,10 +101,7 @@ const recipes4 = [
                         
                         ]   
         
-    }
-]
-
-const recipes5 = [ 
+    },
     {
         title: "Baked Risotto with Lemon, Peas & Parmesan",
         description: "If you’ve never made risotto because you didn’t want to stand there stirring forever, then this recipe is for you. It packs all the satisfying flavor of a slow-stirred version into a fraction of the hands-on time!",
@@ -141,9 +120,7 @@ const recipes5 = [
                         
                         ]   
         
-    }
-]
-const recipes6 = [ 
+    },
     {
         title: "BBQ Chicken Twice-Baked Potatoes",
         description: "Missing summertime BBQ chicken? Stuff sweet potatoes with rotisserie chicken and your favorite BBQ sauce, then top them with Gouda for a healthy chicken dinner you can enjoy long into fall and beyond.",
@@ -163,5 +140,10 @@ const recipes6 = [
                         
                         ]   
         
-    }
+    },
 ]
+
+
+console.log(recipelist);
+
+console.log(recipelist[2].ingredients[1].name)
