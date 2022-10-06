@@ -11,7 +11,7 @@ main{
 
 .card{
   margin:20px;
-  min-width: 300px;
+  min-width: 350px;
   list-style: none;
   width:20%;
   min-height:700px;
@@ -43,7 +43,6 @@ h1{
 body{
   background-color: rgb(240, 240, 240);
 }
-
 .card img{
   transition-property: all;
   transition-duration:1s;
@@ -65,5 +64,52 @@ button{
 
 
 
+.card-title {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-text {
+  margin: 15px;
+  min-height: 30px;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.description:hover {
+  text-decoration: underline;
+}
+.description:focus {
+  outline: none;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+summary {
+  font-size: larger;
+  background-color: #0d6efd;
+  border-radius: 30px;
+  padding: 10px;
+  margin: auto;
+  transition: 1s;
+}
+summary:hover {
+  scale: 1.1;
+}
+
+.card-img-top:hover{
+  scale: 1.05;
+  transition: 1s;
+}
 
 
