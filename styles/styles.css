@@ -1,3 +1,7 @@
+main{
+  margin-bottom: 50px;
+}
+
 .cards-row{
   margin-top: 30px;
   display:flex;
@@ -9,7 +13,14 @@
   margin:20px;
   min-width: 350px;
   list-style: none;
+  width:20%;
+  min-height:700px;
+  text-align: center;
   
+}
+
+.card-text{
+  min-height:200px;
 }
 
 .btn-primary{
@@ -32,6 +43,27 @@ h1{
 body{
   background-color: rgb(240, 240, 240);
 }
+.card img{
+  transition-property: all;
+  transition-duration:1s;
+  transition-timing-function: ease-in-out;
+  margin-top:50px;
+  margin-bottom: 50px;
+
+}
+
+.card img:hover{
+  transform:scale(1.1) rotateY(180deg);
+  translate: smooth;
+  cursor:pointer;
+}
+
+button{
+  margin:auto;
+}
+
+
+
 .card-title {
   min-height: 50px;
   display: flex;
