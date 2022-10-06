@@ -28,5 +28,16 @@ body{
   background-color: rgb(240, 240, 240);
 }
 
+.card img:hover{
+
+  transform: scale(2);
+  transition-duration: 2s;
+  translate: smooth;
+  cursor:pointer;
+  border-radius:50%;
+
+
+}
+
 
 
