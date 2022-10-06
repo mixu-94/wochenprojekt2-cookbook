@@ -34,6 +34,9 @@ body{
 }
 .card-title {
   min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .card-text {
   margin: 15px;
@@ -62,7 +65,7 @@ body{
 }
 summary {
   font-size: larger;
-  background-color: rgb(37, 113, 167);
+  background-color: #0d6efd;
   border-radius: 30px;
   padding: 10px;
   margin: auto;
