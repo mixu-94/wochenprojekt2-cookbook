@@ -1,3 +1,7 @@
+main{
+  margin-bottom: 50px;
+}
+
 .cards-row{
   margin-top: 30px;
   display:flex;
@@ -9,7 +13,14 @@
   margin:20px;
   min-width: 300px;
   list-style: none;
+  width:20%;
+  min-height:700px;
+  text-align: center;
   
+}
+
+.card-text{
+  min-height:200px;
 }
 
 .btn-primary{
@@ -33,15 +44,23 @@ body{
   background-color: rgb(240, 240, 240);
 }
 
-.card img:hover{
+.card img{
+  transition-property: all;
+  transition-duration:1s;
+  transition-timing-function: ease-in-out;
+  margin-top:50px;
+  margin-bottom: 50px;
 
-  transform: scale(2);
-  transition-duration: 2s;
+}
+
+.card img:hover{
+  transform:scale(1.1) rotateY(180deg);
   translate: smooth;
   cursor:pointer;
-  border-radius:50%;
+}
 
-
+button{
+  margin:auto;
 }
 
 
