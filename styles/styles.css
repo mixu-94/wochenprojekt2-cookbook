@@ -41,6 +41,7 @@ h1{
 .centralHeading{
   justify-content: center;
   margin: auto;
+  margin-bottom: 7px;
 }
 
 .searchbar{
