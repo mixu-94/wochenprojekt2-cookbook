@@ -14,8 +14,8 @@ main{
   min-width: 350px;
   list-style: none;
   width:20%;
-  min-height:700px;
   text-align: center;
+  height:100%;
   
 }
 
@@ -45,6 +45,7 @@ body{
   transition-timing-function: ease-in-out;
   margin-top:50px;
   margin-bottom: 50px;
+  height:50%;
 
 }
 
