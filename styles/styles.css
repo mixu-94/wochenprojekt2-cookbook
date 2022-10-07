@@ -36,6 +36,12 @@ h1{
   justify-content: flex-start;
 }
 
+.centralHeading{
+  justify-content: center;
+  margin: auto;
+  
+}
+
 body{
   background-color: rgb(240, 240, 240);
 }
