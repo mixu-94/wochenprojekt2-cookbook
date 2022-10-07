@@ -34,11 +34,31 @@ h1{
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  background-color: white;
+  padding: 20px;
 }
 
 .centralHeading{
   justify-content: center;
   margin: auto;
+}
+
+.searchbar{
+  border-radius: 25px;
+  border: rgb(76, 141, 11) 2px solid;
+  padding: 10px;
+  margin: 10px auto;
+  width: 75%;
+  min-width: 100px;
+}
+
+.searchbar:focus{
+  border: rgb(76, 141, 11) 2px solid;
+  outline: none !important;
+}
+
+.searchbar::placeholder{
+  color: rgb(76, 141, 11);
 }
 
 body{
