@@ -36,17 +36,13 @@ h1{
   justify-content: flex-start;
 }
 
+.centralHeading{
+  justify-content: center;
+  margin: auto;
+}
+
 body{
   background-color: rgb(240, 240, 240);
-}
-.card img{
-  transition-property: all;
-  transition-duration:1s;
-  transition-timing-function: ease-in-out;
-  margin-top:50px;
-  margin-bottom: 50px;
-  height:50%;
-
 }
 
 .card img:hover{
@@ -109,9 +105,13 @@ summary:hover {
   scale: 1.05;
   transition: 1s;
 }
+.card img{
+  transition-property: all;
+  transition-duration:1s;
+  transition-timing-function: ease-in-out;
+  margin-top:50px;
+  margin-bottom: 50px;
+  height:40vh;
 
-table {
-  text-align:left;
 }
-
 
