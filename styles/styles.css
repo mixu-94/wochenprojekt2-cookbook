@@ -13,9 +13,9 @@ main{
   margin:20px;
   min-width: 350px;
   list-style: none;
-  width:25%;
-  height:100%;
+  width:20%;
   text-align: center;
+  height:100%;
   
 }
 
@@ -43,15 +43,6 @@ h1{
 
 body{
   background-color: rgb(240, 240, 240);
-}
-
-.card img{
-  transition-property: all;
-  transition-duration:1s;
-  transition-timing-function: ease-in-out;
-  margin-top:50px;
-  margin-bottom: 50px;
-
 }
 
 .card img:hover{
@@ -114,5 +105,13 @@ summary:hover {
   scale: 1.05;
   transition: 1s;
 }
+.card img{
+  transition-property: all;
+  transition-duration:1s;
+  transition-timing-function: ease-in-out;
+  margin-top:50px;
+  margin-bottom: 50px;
+  height:40vh;
 
+}
 
