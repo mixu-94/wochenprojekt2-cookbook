@@ -115,4 +115,8 @@ summary:hover {
   transition: 1s;
 }
 
+table {
+  text-align:left;
+}
+
 
