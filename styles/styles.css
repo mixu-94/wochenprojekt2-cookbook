@@ -116,4 +116,16 @@ summary:hover {
   width: 80%;
 }
 
+@media only screen and (max-width: 770px){
+  .card img{
+    transition-property: all;
+    transition-duration:1s;
+    transition-timing-function: ease-in-out;
+    margin-top:50px;
+    margin-bottom: 50px;
+    height:40vh;
+    width: 100%;
+  }
+}
+
 
