@@ -58,7 +58,8 @@ button{
 
 
 .card-title {
-  min-height: 50px;
+  min-height: 150px;
+  font-size:2rem;
   display: flex;
   align-items: center;
   justify-content: center;
